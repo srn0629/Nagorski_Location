@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAE5558B1C7407C1002B4130 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE555891C7407C1002B4130 /* LaunchScreen.xib */; };
+		AAE555971C7407C1002B4130 /* Nagorski_LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE555961C7407C1002B4130 /* Nagorski_LocationTests.swift */; };
+		AAE555A11C7407DE002B4130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE555A01C7407DE002B4130 /* AppDelegate.swift */; };
+		AAE555A51C740872002B4130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE555A41C740872002B4130 /* Main.storyboard */; };
+		AAE555A71C74093D002B4130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE555A61C74093D002B4130 /* ViewController.swift */; };
+		AAE555AF1C7409AF002B4130 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE555AE1C7409AF002B4130 /* Images.xcassets */; };
+		AAE555B31C740AAA002B4130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE555B21C740AAA002B4130 /* ViewController.swift */; };
+		AAE555B51C740AC2002B4130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE555B41C740AC2002B4130 /* Main.storyboard */; };
+		AAE555B71C740AE3002B4130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE555B61C740AE3002B4130 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAE555911C7407C1002B4130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAE555731C7407C1002B4130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAE5557A1C7407C1002B4130;
+			remoteInfo = Nagorski_Location;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAE5557B1C7407C1002B4130 /* Nagorski_Location.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nagorski_Location.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE5557F1C7407C1002B4130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAE5558A1C7407C1002B4130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AAE555901C7407C1002B4130 /* Nagorski_LocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nagorski_LocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE555951C7407C1002B4130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAE555961C7407C1002B4130 /* Nagorski_LocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nagorski_LocationTests.swift; sourceTree = "<group>"; };
+		AAE555A01C7407DE002B4130 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../Location_Nagorski/Location_Nagorski/AppDelegate.swift; sourceTree = "<group>"; };
+		AAE555A41C740872002B4130 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Nagorski_Location.xcodeproj/../../Location_Nagorski/Location_Nagorski/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		AAE555A61C74093D002B4130 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Nagorski_Location.xcodeproj/../../Location_Nagorski/Location_Nagorski/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		AAE555AE1C7409AF002B4130 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Nagorski_Location.xcodeproj/../../Location_Nagorski/Location_Nagorski/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		AAE555B21C740AAA002B4130 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAE555B41C740AC2002B4130 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AAE555B61C740AE3002B4130 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAE555781C7407C1002B4130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE5558D1C7407C1002B4130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAE555721C7407C1002B4130 = {
+			isa = PBXGroup;
+			children = (
+				AAE5557D1C7407C1002B4130 /* Nagorski_Location */,
+				AAE555931C7407C1002B4130 /* Nagorski_LocationTests */,
+				AAE5557C1C7407C1002B4130 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAE5557C1C7407C1002B4130 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAE5557B1C7407C1002B4130 /* Nagorski_Location.app */,
+				AAE555901C7407C1002B4130 /* Nagorski_LocationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAE5557D1C7407C1002B4130 /* Nagorski_Location */ = {
+			isa = PBXGroup;
+			children = (
+				AAE555A01C7407DE002B4130 /* AppDelegate.swift */,
+				AAE555B61C740AE3002B4130 /* AppDelegate.swift */,
+				AAE555A61C74093D002B4130 /* ViewController.swift */,
+				AAE555B21C740AAA002B4130 /* ViewController.swift */,
+				AAE555A41C740872002B4130 /* Main.storyboard */,
+				AAE555B41C740AC2002B4130 /* Main.storyboard */,
+				AAE555891C7407C1002B4130 /* LaunchScreen.xib */,
+				AAE555AE1C7409AF002B4130 /* Images.xcassets */,
+				AAE5557E1C7407C1002B4130 /* Supporting Files */,
+			);
+			path = Nagorski_Location;
+			sourceTree = "<group>";
+		};
+		AAE5557E1C7407C1002B4130 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAE5557F1C7407C1002B4130 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAE555931C7407C1002B4130 /* Nagorski_LocationTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAE555961C7407C1002B4130 /* Nagorski_LocationTests.swift */,
+				AAE555941C7407C1002B4130 /* Supporting Files */,
+			);
+			path = Nagorski_LocationTests;
+			sourceTree = "<group>";
+		};
+		AAE555941C7407C1002B4130 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAE555951C7407C1002B4130 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAE5557A1C7407C1002B4130 /* Nagorski_Location */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE5559A1C7407C1002B4130 /* Build configuration list for PBXNativeTarget "Nagorski_Location" */;
+			buildPhases = (
+				AAE555771C7407C1002B4130 /* Sources */,
+				AAE555781C7407C1002B4130 /* Frameworks */,
+				AAE555791C7407C1002B4130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nagorski_Location;
+			productName = Nagorski_Location;
+			productReference = AAE5557B1C7407C1002B4130 /* Nagorski_Location.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAE5558F1C7407C1002B4130 /* Nagorski_LocationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE5559D1C7407C1002B4130 /* Build configuration list for PBXNativeTarget "Nagorski_LocationTests" */;
+			buildPhases = (
+				AAE5558C1C7407C1002B4130 /* Sources */,
+				AAE5558D1C7407C1002B4130 /* Frameworks */,
+				AAE5558E1C7407C1002B4130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAE555921C7407C1002B4130 /* PBXTargetDependency */,
+			);
+			name = Nagorski_LocationTests;
+			productName = Nagorski_LocationTests;
+			productReference = AAE555901C7407C1002B4130 /* Nagorski_LocationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAE555731C7407C1002B4130 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = srn0629;
+				TargetAttributes = {
+					AAE5557A1C7407C1002B4130 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					AAE5558F1C7407C1002B4130 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = AAE5557A1C7407C1002B4130;
+					};
+				};
+			};
+			buildConfigurationList = AAE555761C7407C1002B4130 /* Build configuration list for PBXProject "Nagorski_Location" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAE555721C7407C1002B4130;
+			productRefGroup = AAE5557C1C7407C1002B4130 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAE5557A1C7407C1002B4130 /* Nagorski_Location */,
+				AAE5558F1C7407C1002B4130 /* Nagorski_LocationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAE555791C7407C1002B4130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE555AF1C7409AF002B4130 /* Images.xcassets in Resources */,
+				AAE5558B1C7407C1002B4130 /* LaunchScreen.xib in Resources */,
+				AAE555A51C740872002B4130 /* Main.storyboard in Resources */,
+				AAE555B51C740AC2002B4130 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE5558E1C7407C1002B4130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAE555771C7407C1002B4130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE555B71C740AE3002B4130 /* AppDelegate.swift in Sources */,
+				AAE555B31C740AAA002B4130 /* ViewController.swift in Sources */,
+				AAE555A71C74093D002B4130 /* ViewController.swift in Sources */,
+				AAE555A11C7407DE002B4130 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE5558C1C7407C1002B4130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE555971C7407C1002B4130 /* Nagorski_LocationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAE555921C7407C1002B4130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAE5557A1C7407C1002B4130 /* Nagorski_Location */;
+			targetProxy = AAE555911C7407C1002B4130 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAE555891C7407C1002B4130 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAE5558A1C7407C1002B4130 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAE555981C7407C1002B4130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAE555991C7407C1002B4130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAE5559B1C7407C1002B4130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nagorski_Location/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAE5559C1C7407C1002B4130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nagorski_Location/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AAE5559E1C7407C1002B4130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Nagorski_LocationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nagorski_Location.app/Nagorski_Location";
+			};
+			name = Debug;
+		};
+		AAE5559F1C7407C1002B4130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Nagorski_LocationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nagorski_Location.app/Nagorski_Location";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAE555761C7407C1002B4130 /* Build configuration list for PBXProject "Nagorski_Location" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE555981C7407C1002B4130 /* Debug */,
+				AAE555991C7407C1002B4130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE5559A1C7407C1002B4130 /* Build configuration list for PBXNativeTarget "Nagorski_Location" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE5559B1C7407C1002B4130 /* Debug */,
+				AAE5559C1C7407C1002B4130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE5559D1C7407C1002B4130 /* Build configuration list for PBXNativeTarget "Nagorski_LocationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE5559E1C7407C1002B4130 /* Debug */,
+				AAE5559F1C7407C1002B4130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAE555731C7407C1002B4130 /* Project object */;
+}
